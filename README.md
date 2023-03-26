@@ -14,4 +14,4 @@ A complete responsive portfolio website designed using React JS
 <li>The contact page contains a form and the user can contact me through LinkedIn, Gmail, GitHub and also Instagram</li>
 <li>The achievements contains my technical certifications and extra curricular activities</li>
 </ul>
-check out my portfolio --> https://swetha-ramasamy.netlify.app
+check out my portfolio -->  https://swethaportfolio.vercel.app
