@@ -4,6 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import movie from "../../Assets/Projects/movie.webp";
 import cab from "../../Assets/Projects/cab.png";
+import food from "../../Assets/Projects/food.jpg";
+import iot from "../../Assets/Projects/iot.png";
+import handwriting from "../../Assets/Projects/handwriting.jpg";
 import studentManagement from "../../Assets/Projects/studentManagement.jpeg";
 
 function Projects() {
@@ -52,9 +55,36 @@ function Projects() {
                         
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={handwriting}
+              isBlog={false}
+              title="Handwriting Analysis"
+              description="Handwriting analysis offers a fascinating avenue for inferring personality traits using AI. By examining various aspects of handwriting such as size, pressure, slant, and style, it's possible to make educated guesses about an individual's emotional stability, confidence, introversion/extroversion, attention to detail, creativity, stress levels, openness to experience, organizational skills, assertiveness, and social adaptability."
+              ghLink="https://github.com/Swetha-ramasamy/Handwriting-analysis.git"       
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food}
+              isBlog={false}
+              title="Find Meal"
+              description="FindMeal is used to find the meals and it's recipe based on the input given , the input can be a main ingredient of the dish or food category."
+              ghLink="https://github.com/Swetha-ramasamy/FindMeal.git" 
+              demoLink="https://find-meal-six.vercel.app"      
+            />
+          </Col>
 
-
-         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iot}
+              isBlog={false}
+              title="Fire Fighting Robot - IOT"
+              description="The robot uses Arduino UNO and nodeMCU-esp8266, it will operate within a predefined boundary range, detecting and extinguishing small flames within its vicinity. It will utilize sensors to detect fires and navigate towards them if they are outside its initial range, effectively responding to fire incidents. Stakeholders can receive real-time notifications once the flame is detected using blynk app"
+              ghLink="https://github.com/Swetha-ramasamy/Fire-Fighting-Robot.git" 
+                   
+            />
+          </Col>
 
          
         </Row>

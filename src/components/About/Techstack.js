@@ -8,12 +8,18 @@ import {
   DiJavascript1,
   DiCss3,
   DiPython,
+  DiMongodb,
 } from "react-icons/di";
 import {
   SiAngularjs,
   SiHtml5 ,
   SiAngular,
   SiDjango,
+  SiFlutter,
+  SiReact,
+  SiMysql,
+  SiFirebase,
+  SiPhp,
 } from "react-icons/si";
 
 function Techstack() {
@@ -35,13 +41,22 @@ function Techstack() {
         <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAngularjs />
+        <SiFlutter/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAngular/>
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDjango/>
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp/>
       </Col>
     </Row>
   );

@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi 👋🏻 I am <span className="purple">Swetha R </span>
             from <span className="purple"> Coimbatore, India.</span>
-            <br />I am a student of <span className="purple">Coimbatore Institute Of technology</span> pursuing <span className="purple"> Msc software systems III year
+            <br />I am a student of <span className="purple">Coimbatore Institute Of technology</span> pursuing <span className="purple"> Msc Software Systems.
             <br /></span>
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive Never Give Up Attitude 💪🏻"{" "}
+            "Stay hungry stay foolish"{" "}
           </p>
-          <footer className="blockquote-footer">Swetha</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>

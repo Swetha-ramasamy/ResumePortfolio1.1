@@ -7,8 +7,15 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Type from "../Home/Type";
+import Experience from "../Experience/Experience";
 
 function About() {
+  const company = {
+    name: "Awesome Company",
+    description: "This is a brief description of the awesome company.",
+    image: "https://via.placeholder.com/150",
+    linkedin: "https://www.linkedin.com/company/awesome-company",
+  };
   return (
     <Container fluid className="about-section">
   
@@ -42,7 +49,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Known  <strong className="purple">Programming languages </strong>
+        <strong className="purple">Techstack </strong>
         </h1>
 
         <Techstack />
@@ -53,6 +60,11 @@ function About() {
         <Toolstack />
 
         <Github />
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        Professional <strong className="purple">Experience</strong>
+        </h1>
+       
+        <Experience />
       </Container>
     </Container>
   );
